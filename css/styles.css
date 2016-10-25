@@ -23,6 +23,7 @@
 		font-weight: 600;
 		text-align: center;
 		text-transform: capitalize;
+		margin-top: 0;
 	}
 	
 	h2	{
@@ -98,7 +99,6 @@
 	.name,
 	.footer-name,
 	nav li {
-/*		text-align: center;*/
 		margin-top: 6px;
 		margin-bottom: 0;
 	}
@@ -202,6 +202,10 @@
 
 @media (min-width: 320px) {
 
+	.name	{
+		background: transparent;
+	}
+	
 	.footer-nav-mobile	{
 		width: 95%;
 		display: inline-block;
@@ -215,12 +219,11 @@
 	.main-nav li,
 	h1			{
 		background-color: #fff;
-/*		vertical-align: bottom;*/
 	}
 	
 	.footer-name	{
 	}
-	.show,
+
 	.footer-nav,
 	.footer-name	{
 		float: left;
@@ -252,7 +255,7 @@
 	.footer-nav-wide .name	{
 		float: left;
 		font-weight: 600;
-		padding: 20px 15px 0 15px;
+		padding: 15px 15px 0 15px;
 	}
 	
 	.footer-nav-wide .list	{
@@ -266,20 +269,29 @@
 	}
 	
 	.nav ul	{
-		display: inline-block;
-		background-color: #fff;
 		margin: 12px;
 		margin-right: 12px;
 		text-align: center;
 	}
 	
+	.main-nav li,
+	h1			{
+		background-color: transparent;
+		display: inline;
+	}
+	
+	.name,
+	.nav li	{
+		display: inline;
+	}
+	
 	.name	{
 		text-align: center;
 	}
+	
 	.name a,
 	.nav a	{
-		text-align: center;
-		display: block;
+
 	}
 	
 	.contact-container	{
@@ -292,20 +304,7 @@
 		background-color: #fff;
 	}
 	
-
-	.main-nav {
-		text-align: center;
-		background-color: #fff;
-	}
-	
-	.main-nav li,
-	h1			{
-		background-color: transparent;
-		vertical-align: bottom;
-	}
-	
 	.name li	{
-		display: inline-block;
 		margin-top: 18px;
 	}
 	
